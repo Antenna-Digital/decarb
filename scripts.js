@@ -1263,29 +1263,9 @@ function initializeMarquee() {
   //const marqueeContentClone = marqueeContent.cloneNode(true);
   //marquee.append(marqueeContentClone); 
 
-
   const marqueeContentClone1 = marqueeContent.cloneNode(true);
-  const marqueeContentClone2 = marqueeContent.cloneNode(true);
-  const marqueeContentClone3 = marqueeContent.cloneNode(true);
-  const marqueeContentClone4 = marqueeContent.cloneNode(true);
-  const marqueeContentClone5 = marqueeContent.cloneNode(true);
-  const marqueeContentClone6 = marqueeContent.cloneNode(true);
-  const marqueeContentClone7 = marqueeContent.cloneNode(true);
-  const marqueeContentClone8 = marqueeContent.cloneNode(true);
-  const marqueeContentClone9 = marqueeContent.cloneNode(true);
 
   marquee.append(marqueeContentClone1); // Ensure cloned content is appended correctly
-  marquee.append(marqueeContentClone2);
-  marquee.append(marqueeContentClone3);
-  marquee.append(marqueeContentClone4);
-  marquee.append(marqueeContentClone5);
-  marquee.append(marqueeContentClone6);
-  marquee.append(marqueeContentClone7);
-  marquee.append(marqueeContentClone8);
-  marquee.append(marqueeContentClone9);
-
-
-
 
   let tween;
 
@@ -1326,28 +1306,9 @@ function initializeMarqueeReverse() {
   //const marqueeReversedContentClone = marqueeReversedContent.cloneNode(true);
   //marqueeReversed.prepend(marqueeReversedContentClone); // Ensure cloned content is appended correctly
 
-  
   const marqueeContentClone1 = marqueeReversedContent.cloneNode(true);
-  const marqueeContentClone2 = marqueeReversedContent.cloneNode(true);
-  const marqueeContentClone3 = marqueeReversedContent.cloneNode(true);
-  const marqueeContentClone4 = marqueeReversedContent.cloneNode(true);
-  const marqueeContentClone5 = marqueeReversedContent.cloneNode(true);
-  const marqueeContentClone6 = marqueeReversedContent.cloneNode(true);
-  const marqueeContentClone7 = marqueeReversedContent.cloneNode(true);
-  const marqueeContentClone8 = marqueeReversedContent.cloneNode(true);
-  const marqueeContentClone9 = marqueeReversedContent.cloneNode(true);
 
   marqueeReversed.prepend(marqueeContentClone1); // Ensure cloned content is appended correctly
-  marqueeReversed.prepend(marqueeContentClone2);
-  marqueeReversed.prepend(marqueeContentClone3);
-  marqueeReversed.prepend(marqueeContentClone4);
-  marqueeReversed.prepend(marqueeContentClone5);
-  marqueeReversed.prepend(marqueeContentClone6);
-  marqueeReversed.prepend(marqueeContentClone7);
-  marqueeReversed.prepend(marqueeContentClone8);
-  marqueeReversed.prepend(marqueeContentClone9);
-
-
 
   let tween;
 
